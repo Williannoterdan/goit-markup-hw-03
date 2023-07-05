@@ -31,8 +31,10 @@ body {
   background-color: var(--color-of-background-one);
 }
 .container {
-  max-width: 1158px;
   width: 100%;
+  max-width: 1158px;
+  border: 1px solid red;
+
 }
 
 button {
@@ -68,14 +70,9 @@ button:focus {
 /* Лого */
 .up_menu {
   border-bottom: 1px solid #e7e9fc;
+  
 }
-.up_menu .container {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 
 .text-logo,
 .text-logo:hover,
@@ -91,7 +88,7 @@ button:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
-  
+
 }
 .text-logo-studio,
 .text-logo-studio:hover,
@@ -106,6 +103,7 @@ button:focus {
 .naw_panel {
   display: flex;
   align-items: center;
+
 }
 .naw_panel .ul_fast {
   display: flex;
@@ -122,6 +120,10 @@ button:focus {
   font-style: normal;
   display: flex;
   align-items: center;
+}
+.styless-address .ul_contact{
+  display: flex;
+  gap: 40px;
 }
 /* Контактні дані */
 
@@ -155,7 +157,7 @@ button:focus {
   color: var(--color-of-background-one);
   min-width: 496px;
 }
-.intro {
+.intro .container{
   background-color: var(--color-of-txt-two);
   padding: 188px o;
 }
