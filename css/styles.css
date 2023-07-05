@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --color-hover: #404bbf;
   --color-of-txt-one: #434455;
@@ -31,6 +36,7 @@ body {
   background-color: var(--color-of-background-one);
 }
 .container {
+  display: flex;
   width: 100%;
   max-width: 1158px;
   border: 1px solid red;
