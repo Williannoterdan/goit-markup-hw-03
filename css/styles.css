@@ -70,7 +70,7 @@ button:focus {
 /* Лого */
 .up_menu {
   border-bottom: 1px solid #e7e9fc;
-  
+  display: flex;
 }
 
 
@@ -104,10 +104,12 @@ button:focus {
   display: flex;
   align-items: center;
 
+
 }
-.naw_panel .ul_fast {
+.ul_fast {
   display: flex;
   gap: 40px;
+  border: 1px solid black; 
 }
 .navigationpanel {
   text-decoration: none;
@@ -119,7 +121,8 @@ button:focus {
 .styless-address {
   font-style: normal;
   display: flex;
-  align-items: center;
+  align-items: self-end;
+
 }
 .styless-address .ul_contact{
   display: flex;
@@ -130,6 +133,7 @@ button:focus {
 .ul_contact {
   display: flex;
   gap: 40px;
+  border: 1px solid yellow;
 }
 
 .contact-date {
