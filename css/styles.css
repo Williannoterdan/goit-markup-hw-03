@@ -74,7 +74,7 @@ button:focus {
 width: 1440px;
 height: 72px;
 margin: 0 auto; 
-padding: 0 15;
+padding: 0 15px;
 }
 
 .text-logo,
@@ -90,6 +90,7 @@ padding: 0 15;
   letter-spacing: 0.51px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 .text-logo-studio,
 .text-logo-studio:hover,
@@ -101,16 +102,29 @@ padding: 0 15;
   color: var(--color-of-background-two);
 }
 /* Навігація по сайту */
+.naw_panel{
+  display: flex;
+  align-items: center;
+}
+.naw_panel .ul_fast{
+  display: flex;
+  gap: 40px;
+}
 .navigationpanel {
   text-decoration: none;
   color: var(--color-of-txt-two);
   font-weight: 500;
   font-size: 16px;
+  padding: 24px 0;
 }
 .styless-address {
   font-style: normal;
 }
 /* Контактні дані */
+.ul_contact{
+  display: flex;
+  gap: 40px;
+}
 .contact-date {
   color: var(--color-of-txt-one);
   text-decoration: none;
