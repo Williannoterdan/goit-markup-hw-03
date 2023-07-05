@@ -66,15 +66,15 @@ button:focus {
 }
 
 /* Лого */
-.up_menu{
+.up_menu {
   border-bottom: 1px solid #e7e9fc;
 }
-.up_menu .container{
+.up_menu .container {
   display: flex;
-width: 1440px;
-height: 72px;
-margin: 0 auto; 
-padding: 0 15px;
+  width: 1440px;
+  height: 72px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .text-logo,
@@ -91,6 +91,7 @@ padding: 0 15px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
+  
 }
 .text-logo-studio,
 .text-logo-studio:hover,
@@ -102,11 +103,11 @@ padding: 0 15px;
   color: var(--color-of-background-two);
 }
 /* Навігація по сайту */
-.naw_panel{
+.naw_panel {
   display: flex;
   align-items: center;
 }
-.naw_panel .ul_fast{
+.naw_panel .ul_fast {
   display: flex;
   gap: 40px;
 }
@@ -119,12 +120,16 @@ padding: 0 15px;
 }
 .styless-address {
   font-style: normal;
+  display: flex;
+  align-items: center;
 }
 /* Контактні дані */
-.ul_contact{
+
+.ul_contact {
   display: flex;
   gap: 40px;
 }
+
 .contact-date {
   color: var(--color-of-txt-one);
   text-decoration: none;
@@ -137,6 +142,10 @@ padding: 0 15px;
 .button-home {
   letter-spacing: 0.04em;
   color: var(--color-of-background-one);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .text-intro {
   font-size: 56px;
@@ -144,9 +153,11 @@ padding: 0 15px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-of-background-one);
+  min-width: 496px;
 }
 .intro {
   background-color: var(--color-of-txt-two);
+  padding: 188px o;
 }
 .h1-portfolio {
   color: var(--color-of-txt-two);
