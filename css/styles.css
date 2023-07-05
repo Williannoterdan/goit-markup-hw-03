@@ -214,6 +214,13 @@ button:focus {
 .codexs-section{
   padding: 120px 0;
 }
+.ul_codexs{
+  display: flex;
+  gap: 24px;
+}
+.li_codexs{
+  width: calc((100% - 72px) / 4); 
+}
 .strategi-text {
   font-weight: 500;
   font-size: 20px;
