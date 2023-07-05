@@ -34,14 +34,7 @@ body {
   max-width: 1158px;
   width: 100%;
 }
-.container header {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
+
 button {
   cursor: pointer;
   background-color: var(--color-of-background-thre);
@@ -73,6 +66,18 @@ button:focus {
 }
 
 /* Лого */
+.up_menu{
+  border-bottom: 1px solid #e7e9fc;
+}
+.up_menu .container{
+  display: flex;
+width: 1440px;
+height: 72px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0; 
+}
+
 .text-logo,
 .text-logo:hover,
 .text-logo:focus {
