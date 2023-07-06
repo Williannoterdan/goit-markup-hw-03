@@ -87,10 +87,7 @@ button:focus {
 }
 
 /* Лого */
-.up_menu {
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
-}
+
 
 
 .text-logo,
@@ -119,7 +116,11 @@ button:focus {
   color: var(--color-of-background-two);
 }
 /* Навігація по сайту */
-.section_up_menu{
+.up_menu {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+.up_menu .container{
   margin: 0 auto;
   padding: 0 15px;
 }
