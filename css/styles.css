@@ -332,7 +332,6 @@ button:focus {
 }
 .footer_index_container .container {
   background-color: var(--color-of-txt-two);
-  flex-direction: column;
 
 }
 .footer_index_container .text-logo{
