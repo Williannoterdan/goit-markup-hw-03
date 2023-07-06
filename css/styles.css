@@ -331,6 +331,7 @@ button:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
+  display: inline-block ;
 }
 .text-logo-footer {
   color: var(--color-of-background-two);
