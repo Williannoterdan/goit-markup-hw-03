@@ -325,15 +325,34 @@ button:focus {
   padding: 96px 0 120px 0;
 }
 .ul_button_filter{
-  display: block;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 74px;  
 }
-.boton-tail {
+.boton_tail {
   font-family: "Roboto", sans-serif;
+  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-of-background-thre);
   background-color: var(--color-of-background-two);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.boton_tail:hover,
+.boton_tail:focus{
+  border: 1px solid transparent;
+}
+.list_ul_li_prodact{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.list_li_prodact{
+  width: calc((100% - 48px) / 3)
 }
