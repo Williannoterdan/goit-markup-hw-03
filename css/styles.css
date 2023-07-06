@@ -320,11 +320,11 @@ button:focus {
   display: flex;
 }
 .footer_index_container .text-logo{
-  display: inline-block;
   margin-bottom: 16px;
 }
 .text-logo-footer {
   color: var(--color-of-background-two);
+  display: inline-block;
 }
 .p_footer_intro {
   line-height: 1.5;
