@@ -329,7 +329,8 @@ button:focus {
 
 
 .footer_index_container {
-  padding: 100px 0;
+  background-color: var(--color-of-txt-two);
+  padding: 100px 0 100px 150px;
 }
 .footer_index_container .container {
   background-color: var(--color-of-txt-two);
@@ -351,6 +352,7 @@ button:focus {
 
 /* Portfolio-main */
 .button_filter {
+  
   padding: 96px 0 120px 0;
   display: flex;
 }
