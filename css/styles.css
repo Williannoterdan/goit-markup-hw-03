@@ -336,6 +336,9 @@ button:focus {
   letter-spacing: 0.02em;
   width: 264px;
 }
+.foter_a_link{
+  display: inline-block;
+}
 
 /* Portfolio-main */
 .button_filter {
