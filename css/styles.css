@@ -109,6 +109,7 @@ button:focus {
 }
 .text-logo-footer {
   color: var(--color-of-background-two);
+  display: inline-block;
 }
 /* Навігація по сайту */
 .up_menu {
