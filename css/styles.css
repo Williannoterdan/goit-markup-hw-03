@@ -263,6 +263,10 @@ button:focus {
 .section_my_tim {
   background-color: var(--color-of-background-two);
   padding: 120px 0;
+  display: flex;
+}
+.section_my_tim .container{
+  flex-direction: column;
 }
 .section_my_tim_h {
   font-size: 36px;
@@ -314,6 +318,7 @@ button:focus {
   line-height: 1.5;
   color: var(--color-of-background-two);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 /* Portfolio-main */
 .boton-tail {
