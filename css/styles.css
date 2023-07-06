@@ -175,7 +175,7 @@ button:focus {
   letter-spacing: 0.04em;
   color: var(--color-of-background-one);
   display: block;
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -221,6 +221,7 @@ button:focus {
 }
 .li_codexs{
   width: calc((100% - 72px) / 4); 
+  margin-bottom: 8px;
 }
 .strategi-text {
   font-weight: 500;
@@ -236,6 +237,12 @@ button:focus {
   color: var(--color-of-txt-one);
 }
 /* Section 3 */
+.section-proces{
+  padding-bottom: 120px;
+}
+.section-proces .container{
+  flex-direction: column;
+}
 .section-h {
   font-size: 36px;
   line-height: 1.11;
@@ -243,29 +250,57 @@ button:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-of-txt-two);
+  margin-bottom: 72px;
+  
+}
+.ul_proces{
+  display: flex;
+  gap: 24px;
+}
+.li_proces{
+  width: calc((100% - 48px) / 3); 
 }
 /* Section 4 */
-.section-my-tim {
+.section_my_tim {
   background-color: var(--color-of-background-two);
+  padding: 120px 0;
 }
-.section-my-tim-h {
+.section_my_tim_h {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-of-txt-two);
+  margin-bottom: 72px;
 }
-.section-my-tim-h3 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--color-of-txt-two);
+.ul_my_tim{
+  display: flex;
+  gap: 24px;
 }
-.li-first {
+.li_my_tim {
   background-color: var(--color-of-background-one);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.container_my_tim{
+  padding: 32px 16px;
+}
+.my_tim_text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-of-txt-two);
+  text-align: center;
+  margin-bottom: 8px;
+}
+.my_tim_description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-of-txt-one);
+  text-align: center;
 }
 /* Foter */
 .footer-index {
