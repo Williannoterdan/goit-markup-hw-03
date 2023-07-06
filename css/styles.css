@@ -267,6 +267,8 @@ button:focus {
 .section_my_tim {
   background-color: var(--color-of-background-two);
   padding: 120px 0;
+  width: 1158px
+  
 }
 .section_my_tim .container {
   display: flex;
@@ -331,6 +333,7 @@ button:focus {
 .footer_index_container {
   background-color: var(--color-of-txt-two);
   padding: 100px 0 100px 150px;
+  max-width: 1158px;
 }
 .footer_index_container .container {
   background-color: var(--color-of-txt-two);
