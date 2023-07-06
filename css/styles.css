@@ -173,7 +173,7 @@ button:focus {
   width: 100%;
   max-width: 1158px;
 }
-.intro .container{
+.intro .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,7 +183,7 @@ button:focus {
   color: var(--color-of-background-one);
   display: block;
   min-width: 169px;
-  width: 169px;;
+  width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -271,7 +271,7 @@ button:focus {
   background-color: var(--color-of-background-two);
   padding: 120px 0;
 }
-.section_my_tim .container{
+.section_my_tim .container {
   display: flex;
   flex-direction: column;
 }
@@ -313,7 +313,7 @@ button:focus {
   text-align: center;
 }
 /* Foter */
-.footer_index_container{
+.footer_index_container {
   display: flex;
   padding: 100px 0;
 }
@@ -324,7 +324,6 @@ button:focus {
 .footer_index_container .text-logo {
   display: inline-block;
   margin-bottom: 16px;
-
 }
 .p_footer_intro {
   line-height: 1.5;
@@ -338,7 +337,7 @@ button:focus {
   padding: 96px 0 120px 0;
   display: flex;
 }
-.button_filter .container{
+.button_filter .container {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -381,8 +380,7 @@ button:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  
 }
-.prodact_txt .company-codexs-h{
+.prodact_txt .company-codexs-h {
   margin-bottom: 8px;
 }
