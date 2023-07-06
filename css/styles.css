@@ -330,7 +330,7 @@ button:focus {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-bottom: 74px;  
+  margin-bottom: 72px;  
 }
 .boton_tail {
   font-family: "Roboto", sans-serif;
@@ -343,6 +343,7 @@ button:focus {
   background-color: var(--color-of-background-two);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  padding: 12px 24px;
 }
 .boton_tail:hover,
 .boton_tail:focus{
