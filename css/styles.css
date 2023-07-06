@@ -311,6 +311,9 @@ button:focus {
   letter-spacing: 0.02em;
   width: 264px;
 }
+.footer_index_container .text-logo{
+  display: inline-block;
+}
 /* Portfolio-main */
 .button_filter {
   padding: 96px 0 120px 0;
