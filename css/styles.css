@@ -319,10 +319,7 @@ button:focus {
   flex-direction: column;
   display: flex;
 }
-.footer_index_container a{
-  display: inline-block;
-}
-.footer_index_container .text-logo {
+.text-logo-f {
   display: inline-block;
   margin-bottom: 16px;
 }
