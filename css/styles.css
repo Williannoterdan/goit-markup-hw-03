@@ -319,19 +319,8 @@ button:focus {
   flex-direction: column;
   display: flex;
 }
-.text-logo-f {
-  color: var(--color-of-background-thre);
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.1;
-  letter-spacing: 0.51px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  margin-right: 76px;
-  display: inline-block ;
+.footer_index_container .text-logo{
+  display: inline-block;
 }
 .text-logo-footer {
   color: var(--color-of-background-two);
