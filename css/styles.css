@@ -52,7 +52,6 @@ body {
   display: flex;
   width: 100%;
   max-width: 1158px;
-  border: 1px solid red;
 }
 
 button {
@@ -127,7 +126,6 @@ button:focus {
 .ul_fast {
   display: flex;
   gap: 40px;
-  border: 1px solid black;
 }
 .navigationpanel {
   text-decoration: none;
@@ -149,7 +147,6 @@ button:focus {
 .ul_contact {
   display: flex;
   gap: 40px;
-  border: 1px solid yellow;
 }
 
 .contact-date {
@@ -317,6 +314,9 @@ button:focus {
 /* Portfolio-main */
 .button_filter {
   padding: 96px 0 120px 0;
+  .button_filter .container{
+    align-items: center;
+  }
 }
 .ul_button_filter {
   display: flex;
@@ -355,5 +355,8 @@ button:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  
+}
+.prodact_txt .company-codexs-h{
   margin-bottom: 8px;
 }
