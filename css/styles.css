@@ -325,7 +325,6 @@ button:focus {
 }
 .text-logo-footer {
   color: var(--color-of-background-two);
-  display: inline-block;
 }
 .p_footer_intro {
   line-height: 1.5;
