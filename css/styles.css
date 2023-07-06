@@ -107,10 +107,7 @@ button:focus {
   color: var(--color-of-txt-two);
   font-family: "Raleway", sans-serif;
 }
-.text-logo-footer {
-  color: var(--color-of-background-two);
-  display: inline-block;
-}
+
 /* Навігація по сайту */
 .up_menu {
   border-bottom: 1px solid #e7e9fc;
@@ -328,14 +325,16 @@ button:focus {
   display: inline-block;
   margin-bottom: 16px;
 
-}.text-logo-footer{
-  display: inline-block;
 }
 .p_footer_intro {
   line-height: 1.5;
   color: var(--color-of-background-two);
   letter-spacing: 0.02em;
   width: 264px;
+}
+.text-logo-footer {
+  color: var(--color-of-background-two);
+  display: inline-block;
 }
 .foter_a_link{
   display: inline-block;
