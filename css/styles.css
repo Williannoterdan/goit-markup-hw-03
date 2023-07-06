@@ -114,15 +114,18 @@ button:focus {
 .up_menu {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
+  max-width: 1158px;
 }
 .up_menu .container {
   margin: 0 auto;
   padding: 0 15px;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .naw_panel {
   display: flex;
-  align-items: center;
+
 }
 .ul_fast {
   display: flex;
@@ -240,8 +243,10 @@ button:focus {
 /* Section 3 */
 .section-proces {
   padding-bottom: 120px;
+  display: flex;
 }
 .section-proces .container {
+  display: flex;
   flex-direction: column;
 }
 .section-h {
@@ -264,6 +269,10 @@ button:focus {
 .section_my_tim {
   background-color: var(--color-of-background-two);
   padding: 120px 0;
+}
+.section_my_tim .container{
+  display: flex;
+  flex-direction: column;
 }
 .section_my_tim_h {
   font-size: 36px;
@@ -303,9 +312,13 @@ button:focus {
   text-align: center;
 }
 /* Foter */
+.footer_index_container{
+  display: flex;
+  padding: 100px 0;
+}
 .footer_index_container .container {
   background-color: var(--color-of-txt-two);
-  padding: 100px 0;
+  flex-direction: column;
 }
 .footer_index_container .text-logo {
   display: inline-block;
