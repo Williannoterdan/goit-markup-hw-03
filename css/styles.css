@@ -125,7 +125,7 @@ button:focus {
 }
 .naw_panel {
   display: flex;
-
+  align-items: center;
 }
 .ul_fast {
   display: flex;
@@ -323,7 +323,7 @@ button:focus {
 .footer_index_container .text-logo {
   display: inline-block;
   margin-bottom: 16px;
-  display: inline-block;
+
 }
 .p_footer_intro {
   line-height: 1.5;
