@@ -310,6 +310,26 @@ button:focus {
   text-align: center;
 }
 /* Foter */
+
+.text-logo-footer,
+.text-logo-footer:hover,
+.text-logo-footer:focus {
+  display: inline-block;
+  color: var(--color-of-background-thre);
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.51px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-right: 76px;
+  margin-bottom: 16px;
+}
+
+
 .footer_index_container {
   display: flex;
   padding: 100px 0;
@@ -322,7 +342,7 @@ button:focus {
 .footer_index_container .text-logo{
   margin-bottom: 16px;
 }
-.text-logo-footer {
+.text-logo-footer-span {
   color: var(--color-of-background-two);
   display: inline-block;
 }
