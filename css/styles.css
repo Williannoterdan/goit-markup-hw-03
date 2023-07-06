@@ -114,6 +114,7 @@ button:focus {
   max-width: 1158px;
 }
 .up_menu .container {
+  display: flex;
   margin: 0 auto;
   padding: 0 15px;
   flex-direction: row;
