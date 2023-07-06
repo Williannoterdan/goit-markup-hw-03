@@ -335,9 +335,12 @@ button:focus {
 /* Portfolio-main */
 .button_filter {
   padding: 96px 0 120px 0;
-  .button_filter .container{
-    align-items: center;
-  }
+  display: flex;
+}
+.button_filter .container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .ul_button_filter {
   display: flex;
@@ -346,6 +349,7 @@ button:focus {
   gap: 24px;
   margin-bottom: 72px;
 }
+
 .boton_tail {
   font-family: "Roboto", sans-serif;
   display: flex;
