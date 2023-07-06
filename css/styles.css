@@ -100,7 +100,6 @@ button:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
-  display: inline-block;
 }
 .text-logo-studio,
 .text-logo-studio:hover,
@@ -316,15 +315,20 @@ button:focus {
 /* Foter */
 .footer_index_container {
   display: flex;
-  padding: 100px 0;
+  
 }
 .footer_index_container .container {
   background-color: var(--color-of-txt-two);
   flex-direction: column;
+  padding: 100px 0;
+  padding-left: 120px;
 }
 .footer_index_container .text-logo {
   display: inline-block;
   margin-bottom: 16px;
+  
+}.text-logo-footer{
+  display: inline-block;
 }
 .p_footer_intro {
   line-height: 1.5;
