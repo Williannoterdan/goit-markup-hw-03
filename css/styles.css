@@ -321,6 +321,7 @@ button:focus {
   background-color: var(--color-of-txt-two);
   flex-direction: column;
   padding: 100px 0;
+  display: flex;
 }
 .footer_index_container .text-logo {
   display: flexs;
