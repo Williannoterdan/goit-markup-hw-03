@@ -314,10 +314,11 @@ button:focus {
   display: inline-block;
   margin-bottom: 16px;
 }
-.p-footer-intro {
+.p_footer_intro {
   line-height: 1.5;
   color: var(--color-of-background-two);
   letter-spacing: 0.02em;
+  width: 264px;
 }
 /* Portfolio-main */
 .boton-tail {
